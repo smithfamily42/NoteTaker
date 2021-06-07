@@ -13,5 +13,14 @@
   },
   "devDependencies": {
     "jest": "^27.0.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smithfamily42/NoteTaker.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/smithfamily42/NoteTaker/issues"
+  },
+  "homepage": "https://github.com/smithfamily42/NoteTaker#readme"
 }
