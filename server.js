@@ -1,7 +1,7 @@
 const express = require('express');
 // Import the 'path' module
 const path = require('path');
-const apiRoutes = require('./routes');
+const apiRoutes = require('./routes/routes.js');
 
 
 const PORT = process.env.PORT || 3100;
@@ -14,7 +14,7 @@ app.use(express.json());
 app.use(express.static('public'));
 
 // Use apiRoutes
-app.use('/', apiRoutes);
+app.use('./', apiRoutes);
 
 //default response for other requests
 app.use((req, res) => {
